@@ -1,8 +1,8 @@
 name: Build Magisk phh
 
 on:
-  push:
-    branches: [ main ]
+  watch:
+    types: [started]
 
 jobs:
   build:
